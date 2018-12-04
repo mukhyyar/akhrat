@@ -42,11 +42,12 @@
 						   
 						    <li class=""><a href="woodo.php">Woodo</a></li>
 						    <li class=""><a href="namaz.php">Namaz</a></li>
-						    <li class=""><a href="woodo.php">Quran</a></li>
-						    <li class=""><a href="woodo.php">Tasbihaat </a></li>
-						    <li class=""><a href="woodo.php">Wazaif</a></li>
-						    <li class=""><a href="woodo.php">Jhoot / Ghibat etc</a></li>
-						    <li class=""><a href="woodo.php">Weekly Hadith and sunnat</a></li>
+						    <li class=""><a href="quran.php">Quran</a></li>
+						    <li class=""><a href="tasbihaat.php">Tasbihaat </a></li>
+						    <li class=""><a href="javascript:;">Wazaif</a></li>
+						    <li class=""><a href="jhoot.php">Jhoot / Ghibat etc</a></li>
+						    <li class=""><a href="protection.php">Protection of Eyes, ear etc </a></li>
+						    <li class=""><a href="protection.php">Weekly Hadith and sunnat</a></li>
 						    <li class=""><a href="woodo.php">Weekly Qual</a></li>
 						    <li class=""><a href="woodo.php">Weekly Islamic Video</a></li>
 						    <li class=""><a href="woodo.php">Islamic months</a></li>

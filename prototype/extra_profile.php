@@ -62,7 +62,7 @@
             		<!-- begin #profile-dashboard tab -->
             		<div class="tab-pane fade show active" id="profile-dashboard">
 					<!-- begin row -->
-						<div class="row">
+						<div hidden class="row">
 							<!-- begin col-3 -->
 							<div class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-green">
