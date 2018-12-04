@@ -18,7 +18,7 @@
 		<div class="sidebar-bg"></div>
 		<!-- end #sidebar -->
 		<!-- begin #sidebar-right -->
-		<div id="sidebar-right" class="sidebar sidebar-right">
+		<div hidden id="sidebar-right" class="sidebar sidebar-right">
 			<!-- begin sidebar scrollbar -->
 			<div data-scrollbar="true" data-height="100%">
 				<!-- begin sidebar user -->
@@ -170,7 +170,7 @@
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor" data-toggle="collapse" data-target="#collapseOne">
-								How to do Woodo
+								How to do Namaz
 							</div>
 							<div id="collapseOne" class="collapse show" data-parent="#accordion">
 								<div class="card-body">
@@ -182,7 +182,7 @@
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor collapsed" data-toggle="collapse" data-target="#collapseTwo">
-								Woodo benefits 
+								Namaz benefits 
 							</div>
 							<div id="collapseTwo" class="collapse" data-parent="#accordion">
 								<div class="card-body">
@@ -194,7 +194,7 @@
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor collapsed" data-toggle="collapse" data-target="#collapseThree">
-								Woodo looses
+								Namaz looses
 							</div>
 							<div id="collapseThree" class="collapse" data-parent="#accordion">
 								<div class="card-body">

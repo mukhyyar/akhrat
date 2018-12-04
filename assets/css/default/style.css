@@ -9174,7 +9174,7 @@ body .morris-hover.morris-default-style {
     margin: 0;
     left: 0;
     right: 0;
-    padding: 100px 60px 0;
+    /* padding: 100px 60px 0; */
 }
 .register.register-with-news-feed .register-header {
     padding: 60px 60px 0;

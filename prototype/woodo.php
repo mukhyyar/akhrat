@@ -18,7 +18,7 @@
 		<div class="sidebar-bg"></div>
 		<!-- end #sidebar -->
 		<!-- begin #sidebar-right -->
-		<div id="sidebar-right" class="sidebar sidebar-right">
+		<div hidden id="sidebar-right" class="sidebar sidebar-right">
 			<!-- begin sidebar scrollbar -->
 			<div data-scrollbar="true" data-height="100%">
 				<!-- begin sidebar user -->

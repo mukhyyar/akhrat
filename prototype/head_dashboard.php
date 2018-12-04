@@ -5,7 +5,7 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>Color Admin | Dashboard v2</title>
+	<title>Akhtrat App | Dashboard v2</title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -18,7 +18,7 @@
 	<link href="../assets/plugins/animate/animate.min.css" rel="stylesheet" />
 	<link href="../assets/css/default/style.min.css" rel="stylesheet" />
 	<link href="../assets/css/default/style-responsive.min.css" rel="stylesheet" />
-	<link href="../assets/css/default/theme/default.css" rel="stylesheet" id="theme" />
+	<link href="../assets/css/default/theme/orange.css" rel="stylesheet" id="theme" />
 	<!-- ================== END BASE CSS STYLE ================== -->
 	
 	<!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
