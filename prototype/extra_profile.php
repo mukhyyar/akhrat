@@ -39,7 +39,7 @@
 						<div class="profile-header-info">
 							<h4 class="m-t-10 m-b-5">Mukhyyar</h4>
 							<p class="m-b-10">Subscriber</p>
-							<span class="btn btn-xs btn-yellow">03 Months Trail</span>
+							<span class="btn btn-xs btn-yellow">03 Months Trial</span>
 						</div>
 						<!-- END profile-header-info -->
 					</div>

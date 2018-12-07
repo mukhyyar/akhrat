@@ -10,7 +10,7 @@
 							<div class="info">
 								
 								Mukhyyar
-								<small>03 Months Trail Package</small>
+								<small>03 Months Trial Package</small>
 							</div>
 						</a>
 					</li>
