@@ -66,12 +66,9 @@
 			
 			<!-- end breadcrumb -->
 			<!-- begin page-header -->
-			<h1 class="page-header">Namaz <small> record All Namaz everyday </small></h1>
-			<div class="alert alert-danger fade show">
-			  <span hidden class="close" data-dismiss="alert">×</span>
-			  Minimum 100 times every day 
-			  <a hidden href="#" class="alert-link">an example link</a>. 
-			</div>
+			<!--https://www.minhaj.org/english/tid/14166/Zakat-Calculator-Minhaj-Welfare-Foundation.html-->
+			<h1 class="page-header">Zakat Calculator <small> Precious Lives awaiting your Zakat </small></h1>
+			
 			<!-- end page-header -->
 			<!-- begin row -->
 			<div class="row">
@@ -87,30 +84,111 @@
                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                             </div>
-                            <h4 class="panel-title">Today's Namaz Record</h4>
+                            <h4 class="panel-title">Zakat Calculator</h4>
                         </div>
                         <!-- end panel-heading -->
                         <!-- begin panel-body -->
                         <div class="panel-body">
                             <form class="form-horizontal" data-parsley-validate="true" name="demo-form">
+								
 								<div class="form-group row m-b-15">
-									<label class="col-form-label col-md-3">Tasbihaat Durdh / Astagfar / Kalma</label>
-									<div class="col-md-9">
-										<select class="form-control">
-											<option>Select</option>
-											<option>Yes</option>
-											<option>No</option>
-											
-										</select>
+								
+								<div class="col-md-8">
+									<label class="col-form-label">Bank Saving</label>
+									  <div>  <small class="f-s-12 text-grey-darker">Use lowest amount held for 1 year</small></div>
+								</div>
+									<div class="col-md-4">
+										<input type="number" class="form-control"placeholder="Enter amount">
 										
 									</div>
 									
 								</div>
 								
+							<div class="form-group row m-b-15">
+								
+								<div class="col-md-8">
+									<label class="col-form-label">+ Gold & Silver</label>
+									  <div>  <small class="f-s-12 text-grey-darker">Monetary value</small></div>
+								</div>
+									<div class="col-md-4">
+										<input type="number" class="form-control"placeholder="Enter amount">
+										
+									</div>
+									
+								</div>
+								
+								
+							
+							<div class="form-group row m-b-15">
+									
+								<div class="col-md-8">
+									<label class="col-form-label">+ Money owed to you</label>
+									  <div>  <small class="f-s-12 text-grey-darker">Deposits, loans you made</small></div>
+								</div>
+									<div class="col-md-4">
+										<input type="number" class="form-control"placeholder="Enter amount">
+										
+									</div>
+									
+								</div>
+								
+							
+							<div class="form-group row m-b-15">
+									
+								<div class="col-md-8">
+									<label class="col-form-label">+ Resale value of shares, stocks, bonds, etc.</label>
+									  <div>  <small class="f-s-12 text-grey-darker"></small></div>
+								</div>
+									<div class="col-md-4">
+										<input type="number" class="form-control"placeholder="Enter amount">
+										
+									</div>
+									
+								</div>
+								
+							
+								
+							<div class="form-group row m-b-15">
+									
+								<div class="col-md-8">
+									<label class="col-form-label">Total</label>
+									  <div>  <small class="f-s-12 text-grey-darker"></small></div>
+								</div>
+									<div class="col-md-4">
+										<input disabled type="number" class="form-control"placeholder="Enter amount">
+										
+									</div>
+									
+								</div>
+								
+							
+								
+								
+							<div class="form-group row m-b-15">
+									
+								<div class="col-md-8">
+									<label class="col-form-label">2.5 % of zakat</label>
+									  <div>  <small class="f-s-12 text-grey-darker"></small></div>
+								</div>
+									<div class="col-md-4">
+										<div class="input-group m-b-10">
+								<div class="input-group-prepend"><span class="input-group-text">PKR</span></div>
+								<input type="text" class="form-control" disabled>
+							</div>
+										
+									</div>
+									
+								</div>
+								
+							
+								
+								
 									<div class="form-group row m-b-0">
 									<label class="col-md-4 col-sm-4 col-form-label">&nbsp;</label>
 									<div class="col-md-8 col-sm-8">
-										<button type="submit" class="btn btn-primary">Save</button>
+										<button type="button" class="btn btn-danger">Reset</button>
+										<button type="button" class="btn btn-lime">Pay</button>
+
 									</div>
 								</div>
 
@@ -126,11 +204,11 @@
                 <!-- end col-6 -->
  <div class="col-lg-6">
 			    	<!-- begin #accordion -->
-			    	<div id="accordion" class="card-accordion">
+			    	<div hidden id="accordion" class="card-accordion">
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor" data-toggle="collapse" data-target="#collapseOne">
-								benefits 
+								How to do Namaz
 							</div>
 							<div id="collapseOne" class="collapse show" data-parent="#accordion">
 								<div class="card-body">
@@ -139,11 +217,22 @@
 							</div>
 						</div>
 						<!-- end card -->
-						
+						<!-- begin card -->
+						<div class="card">
+							<div class="card-header bg-black text-white pointer-cursor collapsed" data-toggle="collapse" data-target="#collapseTwo">
+								Jhoot / Ghibat/ Hasad / Chori / Dhoka benefits 
+							</div>
+							<div id="collapseTwo" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor collapsed" data-toggle="collapse" data-target="#collapseThree">
-								looses
+								Jhoot / Ghibat/ Hasad / Chori / Dhoka looses
 							</div>
 							<div id="collapseThree" class="collapse" data-parent="#accordion">
 								<div class="card-body">

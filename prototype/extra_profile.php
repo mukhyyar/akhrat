@@ -62,24 +62,71 @@
             		<!-- begin #profile-dashboard tab -->
             		<div class="tab-pane fade show active" id="profile-dashboard">
 					<!-- begin row -->
-						<div hidden class="row">
+						<div  class="row">
 							<!-- begin col-3 -->
 							<div class="col-lg-3 col-md-6">
-								<div class="widget widget-stats bg-gradient-green">
-									<div class="stats-icon stats-icon-lg"><i class="fa fa-globe fa-fw"></i></div>
+								<div class="widget widget-stats bg-gradient-orange">
+									<div class="stats-icon stats-icon-lg"><i class="fa fa-calendar-alt"></i></div>
 									<div class="stats-content">
-										<div class="stats-title">TODAY'S VISITS</div>
-										<div class="stats-number">7,842,900</div>
+										<div class="stats-title">CURRENT MONTH POINTS</div>
+										<div class="stats-number">1,320</div>
 										<div class="stats-progress progress">
 											<div class="progress-bar" style="width: 70.1%;"></div>
 										</div>
-										<div class="stats-desc">Better than last week (70.1%)</div>
+										<div class="stats-desc">Better than last month (70.1%)</div>
 									</div>
 								</div>
 							</div>
 							<!-- end col-3 -->
 							<!-- begin col-3 -->
 							<div class="col-lg-3 col-md-6">
+								<div class="widget widget-stats bg-gradient-blue">
+									<div class="stats-icon stats-icon-lg"><i class="fa fa-check-square fa-fw"></i></div>
+									<div class="stats-content">
+										<div class="stats-title">CURRENT WEEK POINTS</div>
+										<div class="stats-number">243</div>
+										<div class="stats-progress progress">
+											<div class="progress-bar" style="width: 40.1%;"></div>
+										</div>
+										<div class="stats-desc">Better than last week (40.1%)</div>
+									</div>
+								</div>
+							</div>
+							<!-- end col-3 -->
+							
+								<!-- begin col-3 -->
+							<div class="col-lg-3 col-md-6">
+								<div class="widget widget-stats bg-gradient-green">
+									<div class="stats-icon stats-icon-lg"><i class="fa fa-calendar-alt"></i></div>
+									<div class="stats-content">
+										<div class="stats-title">TODAY'S COMPLETED POINTS</div>
+										<div class="stats-number">33</div>
+										<div class="stats-progress progress">
+											<div class="progress-bar" style="width: 70.1%;"></div>
+										</div>
+										<div class="stats-desc">Better than last month (70.1%)</div>
+									</div>
+								</div>
+							</div>
+							<!-- end col-3 -->
+								<!-- begin col-3 -->
+							<div class="col-lg-3 col-md-6">
+								<div class="widget widget-stats bg-gradient-red">
+									<div class="stats-icon stats-icon-lg"><i class="fa fa-calendar-alt"></i></div>
+									<div class="stats-content">
+										<div class="stats-title">TODAY'S PENDING POINTS</div>
+										<div class="stats-number">22</div>
+										<div class="stats-progress progress" style="visibility:hidden;">
+											<div class="progress-bar" style="width: 70.1%;"></div>
+										</div>
+										<div style="visibility:hidden;" class="stats-desc">Better than last month (70.1%)</div>
+									</div>
+								</div>
+							</div>
+							<!-- end col-3 -->
+							
+							<!-- begin col-3 -->
+							<div hidden class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-blue">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-dollar-sign fa-fw"></i></div>
 									<div class="stats-content">
@@ -94,7 +141,7 @@
 							</div>
 							<!-- end col-3 -->
 							<!-- begin col-3 -->
-							<div class="col-lg-3 col-md-6">
+							<div hidden class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-purple">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-archive fa-fw"></i></div>
 									<div class="stats-content">
@@ -109,7 +156,7 @@
 							</div>
 							<!-- end col-3 -->
 							<!-- begin col-3 -->
-							<div class="col-lg-3 col-md-6">
+							<div hidden class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-black">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-comment-alt fa-fw"></i></div>
 									<div class="stats-content">
@@ -123,6 +170,129 @@
 								</div>
 							</div>
 							<!-- end col-3 -->
+							
+								<!-- begin col-4 -->
+				<div class="col-lg-6">
+					<!-- begin panel -->
+					<div class="panel panel-inverse" data-sortable-id="index-6">
+						<div class="panel-heading">
+							<div class="panel-heading-btn">
+								<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+								<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-redo"></i></a>
+								<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+								<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+							</div>
+							<h4 class="panel-title">Daily Routine</h4>
+						</div>
+						<div class="panel-body p-t-0">
+							<div class="height-sm" data-scrollbar="true">
+							<div class="table-responsive" >
+								<table class="table table-valign-middle">
+									<thead>
+										<tr>	
+											<th>Routine</th>
+											<th>Points</th>
+											<th>Status</th>
+											
+											
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><a href="wazu.php">Wazu</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-danger">Pending</label></td>
+										</tr>
+										
+										<tr>
+											<td><a href="wazu.php">Namaz</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-success">Completed</label></td>
+										</tr>
+										
+										
+										<tr>
+											<td><a href="wazu.php">Quran</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-success">Completed</label></td>
+										</tr>
+										
+										
+										<tr>
+											<td><a href="wazu.php">Tasbihaat</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-danger">Pending</label></td>
+										</tr>
+										
+										
+										<tr>
+											<td><a href="wazu.php">Wazaif</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-success">Completed</label></td>
+										</tr>
+										
+										
+										<tr>
+											<td><a href="wazu.php">Jhoot / Ghibat etc</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-success">Completed</label></td>
+										</tr>
+										
+										
+										<tr>
+											<td><a href="wazu.php">Protection of Eyes, ear etc </a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-danger">Pending</label></td>
+										</tr>
+										
+										
+										<tr>
+											<td><a href="wazu.php">Weekly Hadith and sunnat</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-danger">Pending</label></td>
+										</tr>
+										
+										
+										<tr>
+											<td><a href="wazu.php">Weekly Aqwal</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-success">Completed</label></td>
+										</tr>
+										
+										
+										<tr>
+											<td><a href="wazu.php">Weekly Islamic Video</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-danger">Pending</label></td>
+										</tr>
+										
+										
+										<tr>
+											<td><a href="wazu.php">Islamic months</a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-danger">Pending</label></td>
+										</tr>
+										
+										<tr>
+											<td><a href="wazu.php">Haqoq ul ibad </a> <span class="text-success"></span></td>
+											<td><div id="sparkline-unique-visitor"> 2 </div></td>
+											<td><label class="label label-success">Completed</label></td>
+										</tr>
+										
+										
+									</tbody>
+								</table>
+							</div>
+						</div>
+						</div>
+					</div>
+					<!-- end panel -->
+					
+			
+				</div>
+				<!-- end col-4 -->
+							
+							
 						</div>
 						<!-- end row -->
 			

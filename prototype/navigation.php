@@ -24,11 +24,11 @@
 						<a href="javascript:;">
 					        <b class="caret"></b>
 						    <i class="fa fa-th-large"></i>
-						    <span>Dashboard</span>
+						    <span>Home</span>
 					    </a>
 						<ul class="sub-menu">
 						   
-						    <li class="active"><a href="extra_profile.php">Dashboard v2</a></li>
+						    <li class="active"><a href="extra_profile.php">Dashboard</a></li>
 						</ul>
 					</li>
 					
@@ -40,22 +40,37 @@
 					    </a>
 						<ul class="sub-menu">
 						   
-						    <li class=""><a href="woodo.php">Woodo</a></li>
+						    <li class=""><a href="wazu.php">Wazu</a></li>
 						    <li class=""><a href="namaz.php">Namaz</a></li>
 						    <li class=""><a href="quran.php">Quran</a></li>
 						    <li class=""><a href="tasbihaat.php">Tasbihaat </a></li>
-						    <li class=""><a href="javascript:;">Wazaif</a></li>
+						    <li class=""><a href="wazaif.php">Wazaif</a></li>
 						    <li class=""><a href="jhoot.php">Jhoot / Ghibat etc</a></li>
 						    <li class=""><a href="protection.php">Protection of Eyes, ear etc </a></li>
-						    <li class=""><a href="protection.php">Weekly Hadith and sunnat</a></li>
-						    <li class=""><a href="woodo.php">Weekly Qual</a></li>
-						    <li class=""><a href="woodo.php">Weekly Islamic Video</a></li>
-						    <li class=""><a href="woodo.php">Islamic months</a></li>
-						    <li class=""><a href="woodo.php">Haqoq ul ibad </a></li>
-						    <li class=""><a href="woodo.php">Zakat and Sadqa</a></li>
+						    <li class=""><a href="hadith.php">Weekly Hadith and sunnat</a></li>
+						    <li class=""><a href="aqwal.php">Weekly Aqwal</a></li>
+						    <li class=""><a href="javascript:;">Weekly Islamic Video</a></li>
+						    <li class=""><a href="javascript:;">Islamic months</a></li>
+						    <li class=""><a href="javascript:;">Haqoq ul ibad </a></li>
+						    
 						</ul>
 					</li>
 					
+					<li class="has-sub">
+						<a href="javascript:;">
+					        <b class="caret"></b>
+							<i class="fa fa-gem"></i>
+						    <span>Ramazan</span>
+						</a>
+						<ul class="sub-menu">
+							<li><a href="zakat.php">Zakat</a></li>
+							<li><a href="javascript:;">Sadqa</a></li>
+							<li><a href="javascript:;">Roza</a></li>
+							<li><a href="javascript:;">Taraveh</a></li>
+							
+							
+						</ul>
+					</li>
 					<li class="has-sub">
 						<a href="javascript:;">
 					        <b class="caret"></b>

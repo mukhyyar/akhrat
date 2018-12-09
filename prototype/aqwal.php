@@ -66,12 +66,8 @@
 			
 			<!-- end breadcrumb -->
 			<!-- begin page-header -->
-			<h1 class="page-header">Namaz <small> record All Namaz everyday </small></h1>
-			<div class="alert alert-danger fade show">
-			  <span hidden class="close" data-dismiss="alert">×</span>
-			  Minimum 100 times every day 
-			  <a hidden href="#" class="alert-link">an example link</a>. 
-			</div>
+			<h1 class="page-header">Aqwal <small>  </small></h1>
+			
 			<!-- end page-header -->
 			<!-- begin row -->
 			<div class="row">
@@ -87,14 +83,15 @@
                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                             </div>
-                            <h4 class="panel-title">Today's Namaz Record</h4>
+                            <h4 class="panel-title">Aqwal</h4>
                         </div>
                         <!-- end panel-heading -->
                         <!-- begin panel-body -->
                         <div class="panel-body">
                             <form class="form-horizontal" data-parsley-validate="true" name="demo-form">
+								
 								<div class="form-group row m-b-15">
-									<label class="col-form-label col-md-3">Tasbihaat Durdh / Astagfar / Kalma</label>
+									<label class="col-form-label col-md-3">Aqwar Read?</label>
 									<div class="col-md-9">
 										<select class="form-control">
 											<option>Select</option>
@@ -106,6 +103,8 @@
 									</div>
 									
 								</div>
+								
+								
 								
 									<div class="form-group row m-b-0">
 									<label class="col-md-4 col-sm-4 col-form-label">&nbsp;</label>
@@ -130,7 +129,7 @@
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor" data-toggle="collapse" data-target="#collapseOne">
-								benefits 
+								Benefits
 							</div>
 							<div id="collapseOne" class="collapse show" data-parent="#accordion">
 								<div class="card-body">

@@ -66,71 +66,85 @@
 			
 			<!-- end breadcrumb -->
 			<!-- begin page-header -->
-			<h1 class="page-header">Namaz <small> record All Namaz everyday </small></h1>
-			<div class="alert alert-danger fade show">
-			  <span hidden class="close" data-dismiss="alert">×</span>
-			  Minimum 100 times every day 
-			  <a hidden href="#" class="alert-link">an example link</a>. 
-			</div>
+			<h1 class="page-header">Wazaif <small>  </small></h1>
+			
 			<!-- end page-header -->
 			<!-- begin row -->
 			<div class="row">
+			<div class="col-md-8">
+			
                 <!-- begin col-6 -->
-			    <div class="col-lg-6">
-			        <!-- begin panel -->
-                    <div class="panel panel-inverse" data-sortable-id="form-validation-1">
-                        <!-- begin panel-heading -->
-                        <div class="panel-heading">
-                            <div class="panel-heading-btn">
-                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
-                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-redo"></i></a>
-                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
-                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
-                            </div>
-                            <h4 class="panel-title">Today's Namaz Record</h4>
-                        </div>
-                        <!-- end panel-heading -->
-                        <!-- begin panel-body -->
-                        <div class="panel-body">
-                            <form class="form-horizontal" data-parsley-validate="true" name="demo-form">
-								<div class="form-group row m-b-15">
-									<label class="col-form-label col-md-3">Tasbihaat Durdh / Astagfar / Kalma</label>
-									<div class="col-md-9">
-										<select class="form-control">
-											<option>Select</option>
-											<option>Yes</option>
-											<option>No</option>
-											
-										</select>
-										
-									</div>
-									
-								</div>
-								
-									<div class="form-group row m-b-0">
-									<label class="col-md-4 col-sm-4 col-form-label">&nbsp;</label>
-									<div class="col-md-8 col-sm-8">
-										<button type="submit" class="btn btn-primary">Save</button>
-									</div>
-								</div>
-
-						   </form>
-                        </div>
-                        <!-- end panel-body -->
-                        <!-- begin hljs-wrapper -->
-                      
-                        <!-- end hljs-wrapper -->
-                    </div>
-                    <!-- end panel -->
-                </div>
+<div class="col-md-12">
+<!-- https://www.alamy.com/stock-photo/99-names-of-allah.html
+https://www.alamy.com/search/Imageresults.aspx?foo=bar&st=9&sortby=2&resultview=sortbyPopular&npgs=0&qt=99%20names%20of%20allah&qt_raw=99%20names%20of%20allah&lic=3&mr=0&pr=0&ot=0&creative=&ag=0&hc=0&pc=&blackwhite=&cutout=&tbar=1&et=0x000000000000000000000&vp=0&loc=0&imgt=0&dtfr=&dtto=&size=0xFF&archive=1&groupid=&pseudoid=543155&a=&cdid=&cdsrt=&name=&qn=&apalib=&apalic=&lightbox=&gname=&gtype=&xstx=0&saveQry=&editorial=1&nu=&t=&edoptin=&customgeoip=&cap=1&cbstore=1&vd=0&lb=&fi=2&edrf=&ispremium=1&flip=0&pl=&comp=1
+-->
+					<div class="m-b-20 f-s-30 m-t-20"><b class="text-inverse">Names of Allah</b></div>
+					<!-- begin card-group -->
+					<div class="card-group">
+					
+						<!-- begin card -->
+						<div class="card">
+							<img class="card-img-top" src="../assets/img/allah_names/3.jpg" alt="Card image cap">
+							
+						</div>
+						<!-- end card -->
+						<!-- begin card -->
+						<div class="card">
+							<img class="card-img-top" src="../assets/img/allah_names/1.jpg" alt="Card image cap">
+							
+						</div>
+						<!-- end card -->
+						<!-- begin card -->
+						<div class="card">
+							<img class="card-img-top" src="../assets/img/allah_names/4.jpg" alt="Card image cap">
+							
+						</div>
+						<!-- end card -->
+					</div>
+					<!-- end card-group -->
+				</div>
                 <!-- end col-6 -->
- <div class="col-lg-6">
+                 <!-- begin col-6 -->
+<div class="col-md-12">
+<!-- https://www.alamy.com/stock-photo/99-names-of-allah.html
+https://www.alamy.com/search/Imageresults.aspx?foo=bar&st=9&sortby=2&resultview=sortbyPopular&npgs=0&qt=99%20names%20of%20allah&qt_raw=99%20names%20of%20allah&lic=3&mr=0&pr=0&ot=0&creative=&ag=0&hc=0&pc=&blackwhite=&cutout=&tbar=1&et=0x000000000000000000000&vp=0&loc=0&imgt=0&dtfr=&dtto=&size=0xFF&archive=1&groupid=&pseudoid=543155&a=&cdid=&cdsrt=&name=&qn=&apalib=&apalic=&lightbox=&gname=&gtype=&xstx=0&saveQry=&editorial=1&nu=&t=&edoptin=&customgeoip=&cap=1&cbstore=1&vd=0&lb=&fi=2&edrf=&ispremium=1&flip=0&pl=&comp=1
+-->
+					<div class="m-b-20 f-s-30 m-t-20"><b class="text-inverse">Names of Muhammad (P.B.U.H)</b></div>
+					<!-- begin card-group -->
+					<div class="card-group">
+						
+						<!-- begin card -->
+						<div class="card">
+							<img class="card-img-top" src="../assets/img/rasool_names/3.jpg" alt="Card image cap">
+							
+						</div>
+						<!-- end card -->
+						<!-- begin card -->
+						<div class="card">
+							<img class="card-img-top" src="../assets/img/rasool_names/1.jpg" alt="Card image cap">
+							
+						</div>
+						<!-- end card -->
+						<!-- begin card -->
+						<div class="card">
+							<img class="card-img-top" src="../assets/img/rasool_names/4.jpg" alt="Card image cap">
+							
+						</div>
+						<!-- end card -->
+					</div>
+					<!-- end card-group -->
+				</div>
+                <!-- end col-6 -->
+ 
+            </div>
+           
+ <div class="col-lg-4">
 			    	<!-- begin #accordion -->
 			    	<div id="accordion" class="card-accordion">
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor" data-toggle="collapse" data-target="#collapseOne">
-								benefits 
+								Wazaif benifts of Zikr Allah
 							</div>
 							<div id="collapseOne" class="collapse show" data-parent="#accordion">
 								<div class="card-body">
@@ -143,7 +157,8 @@
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor collapsed" data-toggle="collapse" data-target="#collapseThree">
-								looses
+								Wazaif benifts of Muhammad (P.B.U.H)
+
 							</div>
 							<div id="collapseThree" class="collapse" data-parent="#accordion">
 								<div class="card-body">
@@ -158,7 +173,8 @@
 					</div>
 					<!-- end #accordion -->
 			    </div>
-            </div>
+
+		   </div>
             <!-- end row -->
 			<!-- begin panel -->
 		
