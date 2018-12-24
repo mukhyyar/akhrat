@@ -2,7 +2,7 @@
 <div id="header" class="header navbar-default">
 			<!-- begin navbar-header -->
 			<div class="navbar-header">
-				<a href="index.html" class="navbar-brand"><span class="navbar-logo"></span> <b>Akhrat</b> Account</a>
+				<a href="index.html" class="navbar-brand"><span class="navbar-logo"></span> <b>Akhirat </b> Account</a>
 				<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -13,7 +13,7 @@
 			
 			<!-- begin header-nav -->
 			<ul class="navbar-nav navbar-right">
-				<li>
+				<li hidden>
 					<form class="navbar-form">
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Enter keyword" />
@@ -21,7 +21,7 @@
 						</div>
 					</form>
 				</li>
-				<li class="dropdown">
+				<li hidden class="dropdown">
 					<a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle f-s-14">
 						<i class="fa fa-bell"></i>
 						<span class="label">5</span>
@@ -100,7 +100,7 @@
 					</a>
 					<div class="dropdown-menu dropdown-menu-right">
 						
-						<a href="javascript:;" class="dropdown-item">Log Out</a>
+						<a href="index.html" class="dropdown-item">Log Out</a>
 					</div>
 				</li>
 			</ul>
