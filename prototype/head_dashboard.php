@@ -19,6 +19,7 @@
 	<link href="../assets/css/default/style.min.css" rel="stylesheet" />
 	<link href="../assets/css/default/style-responsive.min.css" rel="stylesheet" />
 	<link href="../assets/css/default/theme/orange.css" rel="stylesheet" id="theme" />
+	<link href="../assets/css/default/theme/custom.css" rel="stylesheet" id="custom" />
 	<!-- ================== END BASE CSS STYLE ================== -->
 	
 	<!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->

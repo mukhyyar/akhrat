@@ -189,11 +189,11 @@
                 <!-- end col-6 -->
  <div class="col-lg-6">
 			    	<!-- begin #accordion -->
-			    	<div hidden id="accordion" class="card-accordion">
+			    	<div  id="accordion" class="card-accordion">
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor" data-toggle="collapse" data-target="#collapseOne">
-								How to do Namaz
+								Defination
 							</div>
 							<div id="collapseOne" class="collapse show" data-parent="#accordion">
 								<div class="card-body">

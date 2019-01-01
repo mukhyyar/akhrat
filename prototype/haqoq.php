@@ -66,8 +66,8 @@
 			
 			<!-- end breadcrumb -->
 			<!-- begin page-header -->
-			<h1 class="page-header">Tasbihat <small> record All Tasbihat everyday </small></h1>
-			<div class="alert alert-danger fade show">
+			<h1 class="page-header">Haqoq Ul Ibad <small></small></h1>
+			<div hidden class="alert alert-danger fade show">
 			  <span hidden class="close" data-dismiss="alert">×</span>
 			  Minimum 100 times every day 
 			  <a hidden href="#" class="alert-link">an example link</a>. 
@@ -87,53 +87,64 @@
                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                             </div>
-                            <h4 class="panel-title">Tasbihat</h4>
+                            <h4 class="panel-title">Today's Haqoq ul Ibad Record</h4>
                         </div>
                         <!-- end panel-heading -->
                         <!-- begin panel-body -->
                         <div class="panel-body">
                             <form class="form-horizontal" data-parsley-validate="true" name="demo-form">
+								
 								<div class="form-group row m-b-15">
-									<label class="col-form-label col-md-3">Durdh </label>
-									<div class="col-md-5">
+									<label class="col-form-label col-md-3">Father / Mother</label>
+									<div class="col-md-9">
 										<select class="form-control">
 											<option>Select</option>
 											<option>Yes</option>
 											<option>No</option>
+											<option>Not Applicable</option>
 											
 										</select>
-										
-									</div>
-									<div class="col-md-4">
-										
-										<input type="number" class="form-control" placeholder="Durdh Qty">
-										
 										
 									</div>
 									
 								</div>
 								
 								<div class="form-group row m-b-15">
-									<label class="col-form-label col-md-3">Astagfar</label>
-									<div class="col-md-5">
+									<label class="col-form-label col-md-3">Family (Ahle-o-Ayal)</label>
+									<div class="col-md-9">
 										<select class="form-control">
 											<option>Select</option>
 											<option>Yes</option>
 											<option>No</option>
+
 											
 										</select>
 										
 									</div>
 									
-									<div class="col-md-4">
+								</div>
+								
+								
+								<div class="form-group row m-b-15">
+									<label class="col-form-label col-md-3">Spouse</label>
+									<div class="col-md-9">
+										<select class="form-control">
+											<option>Select</option>
+											<option>Yes</option>
+											<option>No</option>
+											<option>Not Applicable</option>
+
+											
+										</select>
 										
-										
-										<input type="number" class="form-control" placeholder="Astaghfar Qty">
-										
-									
 									</div>
 									
 								</div>
+								
+								
+								
+								
+								
 								
 									<div class="form-group row m-b-0">
 									<label class="col-md-4 col-sm-4 col-form-label">&nbsp;</label>
@@ -154,11 +165,11 @@
                 <!-- end col-6 -->
  <div class="col-lg-6">
 			    	<!-- begin #accordion -->
-			    	<div id="accordion" class="card-accordion">
+			    	<div  id="accordion" class="card-accordion">
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor" data-toggle="collapse" data-target="#collapseOne">
-								benefits 
+								Definition of family / relatives Huq-ul-Ibad
 							</div>
 							<div id="collapseOne" class="collapse show" data-parent="#accordion">
 								<div class="card-body">
@@ -167,11 +178,22 @@
 							</div>
 						</div>
 						<!-- end card -->
-						
+						<!-- begin card -->
+						<div class="card">
+							<div class="card-header bg-black text-white pointer-cursor collapsed" data-toggle="collapse" data-target="#collapseTwo">
+								Looses
+							</div>
+							<div id="collapseTwo" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</div>
+							</div>
+						</div>
+						<!-- end card -->
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor collapsed" data-toggle="collapse" data-target="#collapseThree">
-								looses
+								Benefits
 							</div>
 							<div id="collapseThree" class="collapse" data-parent="#accordion">
 								<div class="card-body">

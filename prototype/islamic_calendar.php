@@ -5,7 +5,7 @@
 	<!-- end #page-loader -->
 	
 	<!-- begin #page-container -->
-	<div id="page-container" class="fade page-sidebar-fixed page-header-fixed page-with-two-sidebar">
+	<div id="page-container" class="fade page-sidebar-fixed page-header-fixed">
 		<!-- begin #header -->
 		<?php include('header_dashboard.php'); ?>
 
@@ -15,7 +15,7 @@
 			<?php include ('navigation.php'); ?>
 			<!-- end sidebar scrollbar -->
 		</div>
-		<div class="sidebar-bg"></div>
+		<div hidden class="sidebar-bg"></div>
 		<!-- end #sidebar -->
 		<!-- begin #sidebar-right -->
 		<div hidden id="sidebar-right" class="sidebar sidebar-right">
@@ -66,8 +66,8 @@
 			
 			<!-- end breadcrumb -->
 			<!-- begin page-header -->
-			<h1 class="page-header">Tasbihat <small> record All Tasbihat everyday </small></h1>
-			<div class="alert alert-danger fade show">
+			<h1 class="page-header">Islamic Events <small></small></h1>
+			<div hidden class="alert alert-danger fade show">
 			  <span hidden class="close" data-dismiss="alert">×</span>
 			  Minimum 100 times every day 
 			  <a hidden href="#" class="alert-link">an example link</a>. 
@@ -78,77 +78,75 @@
                 <!-- begin col-6 -->
 			    <div class="col-lg-6">
 			        <!-- begin panel -->
-                    <div class="panel panel-inverse" data-sortable-id="form-validation-1">
+                  <table class="hlist_tab islamic_cal table table-striped table-condensed table-profile">
+					   <thead>
+						  <tr>
+							 <th>DAY</th>
+							 <th>DATE</th>
+							 <th>HOLIDAY</th>
+						  </tr>
+					   </thead>
+					   <tbody>
+						  <tr class="r0">
+							 <td><span class="pc">Wednesday</span><span class="mobile_text">Wed</span></td>
+							 <td class="dt_nowrap"><span class="pc">Apr 03, 2019</span><span class="mobile_text">Apr 03</span></td>
+							 <td><a href="#">Lailat al Miraj</a></td>
+						  </tr>
+						  <tr class="r1">
+							 <td><span class="pc">Saturday</span><span class="mobile_text">Sat</span></td>
+							 <td class="dt_nowrap"><span class="pc">Apr 20, 2019</span><span class="mobile_text">Apr 20</span></td>
+							 <td><a href="#">Lailat al Bara'ah</a></td>
+						  </tr>
+						  <tr class="r0">
+							 <td><span class="pc">Monday</span><span class="mobile_text">Mon</span></td>
+							 <td class="dt_nowrap"><span class="pc">May 06, 2019</span><span class="mobile_text">May 06</span></td>
+							 <td><a href="#">Ramadan (start)</a></td>
+						  </tr>
+						  <tr class="r1">
+							 <td><span class="pc">Friday</span><span class="mobile_text">Fri</span></td>
+							 <td class="dt_nowrap"><span class="pc">May 31, 2019</span><span class="mobile_text">May 31</span></td>
+							 <td><a href="#">Laylat al Qadr</a></td>
+						  </tr>
+						  <tr class="r0">
+							 <td><span class="pc">Tuesday</span><span class="mobile_text">Tue</span></td>
+							 <td class="dt_nowrap"><span class="pc">Jun 04, 2019</span><span class="mobile_text">Jun 04</span></td>
+							 <td><a href="#">Eid-al-Fitr (End of Ramadan)</a></td>
+						  </tr>
+						  <tr class="r1">
+							 <td><span class="pc">Saturday</span><span class="mobile_text">Sat</span></td>
+							 <td class="dt_nowrap"><span class="pc">Aug 10, 2019</span><span class="mobile_text">Aug 10</span></td>
+							 <td><a href="#">Waqf al Arafa - Hajj</a></td>
+						  </tr>
+						  <tr class="r0">
+							 <td><span class="pc">Sunday</span><span class="mobile_text">Sun</span></td>
+							 <td class="dt_nowrap"><span class="pc">Aug 11, 2019</span><span class="mobile_text">Aug 11</span></td>
+							 <td><a href="#">Eid-al-Adha</a></td>
+						  </tr>
+						  <tr class="r1">
+							 <td><span class="pc">Saturday</span><span class="mobile_text">Sat</span></td>
+							 <td class="dt_nowrap"><span class="pc">Aug 31, 2019</span><span class="mobile_text">Aug 31</span></td>
+							 <td><a href="#">Hijra - Islamic New Year</a></td>
+						  </tr>
+						  <tr class="r0">
+							 <td><span class="pc">Monday</span><span class="mobile_text">Mon</span></td>
+							 <td class="dt_nowrap"><span class="pc">Sep 09, 2019</span><span class="mobile_text">Sep 09</span></td>
+							 <td><a href="#">Day of Ashura / Muharram</a></td>
+						  </tr>
+						  <tr class="r1">
+							 <td><span class="pc">Saturday</span><span class="mobile_text">Sat</span></td>
+							 <td class="dt_nowrap"><span class="pc">Nov 09, 2019</span><span class="mobile_text">Nov 09</span></td>
+							 <td><a href="#">Milad un Nabi</a></td>
+						  </tr>
+						  <tr class="r0">
+							 <td><span class="pc">Thursday</span><span class="mobile_text">Thu</span></td>
+							 <td class="dt_nowrap"><span class="pc">Nov 14, 2019</span><span class="mobile_text">Nov 14</span></td>
+							 <td><a href="#">Milad un Nabi (Shia)</a></td>
+						  </tr>
+					   </tbody>
+					</table>
                         <!-- begin panel-heading -->
-                        <div class="panel-heading">
-                            <div class="panel-heading-btn">
-                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
-                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-redo"></i></a>
-                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
-                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
-                            </div>
-                            <h4 class="panel-title">Tasbihat</h4>
-                        </div>
-                        <!-- end panel-heading -->
-                        <!-- begin panel-body -->
-                        <div class="panel-body">
-                            <form class="form-horizontal" data-parsley-validate="true" name="demo-form">
-								<div class="form-group row m-b-15">
-									<label class="col-form-label col-md-3">Durdh </label>
-									<div class="col-md-5">
-										<select class="form-control">
-											<option>Select</option>
-											<option>Yes</option>
-											<option>No</option>
-											
-										</select>
-										
-									</div>
-									<div class="col-md-4">
-										
-										<input type="number" class="form-control" placeholder="Durdh Qty">
-										
-										
-									</div>
-									
-								</div>
-								
-								<div class="form-group row m-b-15">
-									<label class="col-form-label col-md-3">Astagfar</label>
-									<div class="col-md-5">
-										<select class="form-control">
-											<option>Select</option>
-											<option>Yes</option>
-											<option>No</option>
-											
-										</select>
-										
-									</div>
-									
-									<div class="col-md-4">
-										
-										
-										<input type="number" class="form-control" placeholder="Astaghfar Qty">
-										
-									
-									</div>
-									
-								</div>
-								
-									<div class="form-group row m-b-0">
-									<label class="col-md-4 col-sm-4 col-form-label">&nbsp;</label>
-									<div class="col-md-8 col-sm-8">
-										<button type="submit" class="btn btn-primary">Save</button>
-									</div>
-								</div>
-
-						   </form>
-                        </div>
-                        <!-- end panel-body -->
-                        <!-- begin hljs-wrapper -->
+                     
                       
-                        <!-- end hljs-wrapper -->
-                    </div>
                     <!-- end panel -->
                 </div>
                 <!-- end col-6 -->
@@ -158,7 +156,7 @@
 						<!-- begin card -->
 						<div class="card">
 							<div class="card-header bg-black text-white pointer-cursor" data-toggle="collapse" data-target="#collapseOne">
-								benefits 
+								Defination
 							</div>
 							<div id="collapseOne" class="collapse show" data-parent="#accordion">
 								<div class="card-body">

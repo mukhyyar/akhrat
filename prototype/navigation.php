@@ -49,9 +49,9 @@
 						    <li class=""><a href="protection.php">Protection of Eyes, ear etc </a></li>
 						    <li class=""><a href="hadith.php">Weekly Hadith and sunnat</a></li>
 						    <li class=""><a href="aqwal.php">Weekly Aqwal</a></li>
-						    <li class=""><a href="javascript:;">Weekly Islamic Video</a></li>
-						    <li class=""><a href="javascript:;">Islamic months</a></li>
-						    <li class=""><a href="javascript:;">Haqoq ul ibad </a></li>
+						    <li class=""><a href="islamic_videos.php">Weekly Islamic Video</a></li>
+						    <li class=""><a href="islamic_calendar.php">Islamic months</a></li>
+						    <li class=""><a href="haqoq.php">Haqoq ul ibad </a></li>
 						    
 						</ul>
 					</li>

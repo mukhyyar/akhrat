@@ -114,6 +114,26 @@
 									
 								</div>
 								 
+								 <div class="form-group row m-b-15">
+									<label class="col-form-label col-md-3">How many Para'e you recite today</label>
+									<div class="col-md-9">
+										
+										<input type="number" class="form-control" placeholder="Enter Para'e">
+										
+									</div>
+									
+								</div>
+								 
+								 <div class="form-group row m-b-15">
+									<label class="col-form-label col-md-3">How many Ruku you recite today</label>
+									<div class="col-md-9">
+										
+										<input type="number" class="form-control" placeholder="Enter Ruku">
+										
+									</div>
+									
+								</div>
+								 
 								<div class="form-group row m-b-0">
 									<label class="col-md-4 col-sm-4 col-form-label">&nbsp;</label>
 									<div class="col-md-8 col-sm-8">
