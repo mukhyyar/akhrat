@@ -100,7 +100,26 @@
 	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
 	<script src="../assets/plugins/sparkline/jquery.sparkline.js"></script>
 	<script src="../assets/plugins/jquery-knob/js/jquery.knob.js"></script>
-	<script src="../assets/js/demo/page-with-two-sidebar.demo.min.js"></script>
+	<script src="../assets/js/demo/page-with-two-sidebar.demo.js"></script>
+	
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js"></script>
+    <script src="../assets/plugins/nvd3/build/nv.d3.js"></script>
+	<script src="../assets/js/demo/chart-d3.demo.js"></script>
+	
+	
+	<!-- ================== TASBEEH JS ================== -->
+	<script src="../assets/js/jquery.counter.js"></script>
+	<script>
+      $('.counter1').counter();
+     </script>
+	
+	<script>
+		$(document).ready(function() {
+			App.init();
+			ChartNvd3.init();
+		});
+		
+	</script>
 	<!-- ================== END PAGE LEVEL JS ================== -->
 	
 	<script>
@@ -108,6 +127,8 @@
 			App.init();
 			PageWithTwoSidebar.init();
 		});
+		
+		
 	</script>
 </body>
 </html>

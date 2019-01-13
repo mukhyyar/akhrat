@@ -7,7 +7,7 @@ Website: http://www.seantheme.com/color-admin-v4.0/admin/
 
 var getRandomValue = function() {
     var value = [];
-    for (var i = 0; i<= 19; i++) {
+    for (var i = 0; i<= 11; i++) {
         value.push(Math.floor((Math.random() * 10) + 1));
     }
     return value;
@@ -19,11 +19,11 @@ var handleRenderKnobDonutChart = function() {
 
 var handleRenderSparkline = function() {
     var options = {
-        height: '50px',
+        height: '120px',
         width: '100%',
         fillColor: 'transparent',
         type: 'bar',
-        barWidth: 8,
+        barWidth: 19,
         barColor: COLOR_GREEN
     };
     

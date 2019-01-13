@@ -354,7 +354,7 @@ nv.interactiveGuideline = function() {
                 	dispatch.elementMouseUp({
                 		mouseX: mouseX,
                 		mouseY: mouseY,
-                		pointXValue: pointXValue
+                		pointXValue: as
                 	});
                 }
             }

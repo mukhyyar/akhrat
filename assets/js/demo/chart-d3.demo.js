@@ -56,14 +56,13 @@ var handleBarChart = function() {
     var barChartData = [{
         key: 'Cumulative Return',
         values: [
-            { 'label' : 'A', 'value' : 29, 'color' : COLOR_RED }, 
-            { 'label' : 'B', 'value' : 15, 'color' : COLOR_ORANGE }, 
-            { 'label' : 'C', 'value' : 32, 'color' : COLOR_GREEN }, 
-            { 'label' : 'D', 'value' : 196, 'color' : COLOR_AQUA },  
-            { 'label' : 'E', 'value' : 44, 'color' : COLOR_BLUE },  
-            { 'label' : 'F', 'value' : 98, 'color' : COLOR_PURPLE },  
-            { 'label' : 'G', 'value' : 13, 'color' : COLOR_GREY },  
-            { 'label' : 'H', 'value' : 5, 'color' : COLOR_BLACK }
+            { 'label' : 'Jan', 'value' : 122, 'color' : COLOR_RED }, 
+            { 'label' : 'Feb', 'value' : 322, 'color' : COLOR_ORANGE }, 
+            { 'label' : 'Mar', 'value' : 120, 'color' : COLOR_GREEN }, 
+            { 'label' : 'Apr', 'value' : 100, 'color' : COLOR_AQUA },  
+            { 'label' : 'May', 'value' : 44, 'color' : COLOR_BLUE },  
+            { 'label' : 'June', 'value' : 88, 'color' : COLOR_PURPLE }
+            
         ]
     }];
 

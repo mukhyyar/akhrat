@@ -10,3 +10,37 @@ Website: http://www.seantheme.com/color-admin-v4.0/admin/
 .islamic_cal .mobile_text{
 display:none;
 }
+
+.jcpo-counter {
+	    background-color: #DDD;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    width: 194px;
+}
+.jcpo-counter p {
+    margin: 0;
+    color: #999;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1.8em;
+    letter-spacing: 10px;
+    margin-right: -10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.jcpo-counter p span {
+position: relative;
+    color: white;
+	    border: 0;
+   
+    text-align: center;
+    display: inline-block;
+    padding: 0 0px 0 8px;
+	background: #4c4c4c;
+background: -moz-linear-gradient(left, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+background: -webkit-linear-gradient(left, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+background: linear-gradient(to right, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 );
+}

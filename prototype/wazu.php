@@ -1,4 +1,16 @@
 <?php include('head_dashboard.php'); ?>
+<style>
+g.nv-x.nv-axis.nvd3-svg, g.nv-y.nv-axis.nvd3-svg, div#nv-bar-chart svg text {
+    display: none;
+}
+
+div#nv-bar-chart svg {
+    left: -36px;
+    position: absolute;
+}
+
+
+</style>
 <body>
 	<!-- begin #page-loader -->
 	<div id="page-loader" class="fade show"><span class="spinner"></span></div>
@@ -18,37 +30,39 @@
 		<div class="sidebar-bg"></div>
 		<!-- end #sidebar -->
 		<!-- begin #sidebar-right -->
-		<div hidden id="sidebar-right" class="sidebar sidebar-right">
+		<div  id="sidebar-right" class="sidebar sidebar-right">
 			<!-- begin sidebar scrollbar -->
 			<div data-scrollbar="true" data-height="100%">
 				<!-- begin sidebar user -->
 				<ul class="nav m-t-10">
 				    <li class="nav-widget">
-				        <p>Last 04 Days Stats</p>
-				        <div class="pull-left m-b-10 m-t-5">
+				        <p class="text-white">Total Hours of Current Month Woodu</p>
+				        <div class="pull-left col-md-12 m-b-10 m-t-5">
                             <div class="pull-left p-r-15">
-                                <input class="knob" data-width="80" data-height="80" data-thickness=".2" data-readonly="true" data-min="10" data-displayPrevious=true value="22" data-fgColor="#00acac" data-bgColor="#242a30" />
+                                <input class="knob" data-width="120" data-height="120" data-thickness=".2" data-readonly="true" data-min="0" data-max="730" data-displayPrevious=true value="122" data-fgColor="#00acac" data-bgColor="#242a30" />
                             </div>
-                            <div class="pull-left">
+                            <div hidden class="pull-left">
                                 <input class="knob" data-width="80" data-height="80" data-thickness=".2" data-readonly="true" data-min="10" data-displayPrevious=true value="18" data-fgColor="#348fe2" data-bgColor="#242a30" />
                             </div>
                         </div>
-				        <div class="pull-left">
-                            <div class="pull-left p-r-15">
-                                <input class="knob" data-width="80" data-height="80" data-thickness=".2" data-readonly="true" data-min="10" data-displayPrevious=true value="11" data-fgColor="#ff5b57" data-bgColor="#242a30" />
+						
+				        <div  class="pull-left">
+							
+							<div class="pull-left p-r-15">
+							<p class="text-white" >Points Pending</p>
+                                <input class="knob" data-width="80" data-height="80" data-thickness=".2" data-readonly="true" data-min="0" data-max="2" data-displayPrevious=true value="1" data-fgColor="#ff5b57" data-bgColor="#242a30" />
                             </div>
                             <div class="pull-left">
-                                <input class="knob" data-width="80" data-height="80" data-thickness=".2" data-readonly="true" data-min="10" data-displayPrevious=true value="07" data-fgColor="#727cb6" data-bgColor="#242a30" />
+								<p class="text-white" >Points Obtain</p>
+
+                                <input class="knob" data-width="80" data-height="80" data-thickness=".2" data-readonly="true" data-min="0" data-max="2" data-displayPrevious=true value="1" data-fgColor="#727cb6" data-bgColor="#242a30" />
                             </div>
                         </div>
 				    </li>
 				    <li class="nav-widget">
-				        <p class="m-b-5">Last Week Stats</p>
-				        <div id="sidebar-sparkline-1" class="m-b-12"></div>
+				       
 				        <p class="m-b-5">Last Months Stats</p>
-				        <div id="sidebar-sparkline-2" class="m-b-10"></div>
-				        <p class="m-b-5">Last Year Stats</p>
-				        <div id="sidebar-sparkline-3" class="m-b-10"></div>
+				         <div id="nv-bar-chart" class="height-sm col-amd-12"></div>
 				        
 				    </li>
 					
@@ -189,4 +203,62 @@
 			<!-- end panel -->
 		</div>
 		<!-- end #content -->
+<script>
+// /*
+// Template Name: Color Admin - Responsive Admin Dashboard Template build with Twitter Bootstrap 3 & 4
+// Version: 4.0.0
+// Author: Sean Ngu
+// Website: http://www.seantheme.com/color-admin-v4.0/admin/
+// */
+
+// var getRandomValue = function() {
+    // var value = [];
+    // for (var i = 0; i<= 2; i++) {
+       // value.push(Math.floor((Math.random() * 10) + 1));
+    // }
+    // return value;
+// };
+
+// var handleRenderKnobDonutChart = function() {
+    // $('.knob').knob();
+// };
+
+// var handleRenderSparkline = function() {
+    // var options = {
+        // height: '50px',
+        // width: '100%',
+        // fillColor: 'transparent',
+        // type: 'bar',
+        // barWidth: 8,
+        // barColor: COLOR_GREEN
+    // };
+    
+    // var value = getRandomValue();
+    // $('#sidebar-sparkline-1').sparkline(value, options);
+    
+    // value = getRandomValue();
+    // options.barColor = COLOR_BLUE;
+    // $('#sidebar-sparkline-2').sparkline(value, options);
+    
+    // value = getRandomValue();
+    // options.barColor = COLOR_PURPLE;
+    // $('#sidebar-sparkline-3').sparkline(value, options);
+    
+    // value = getRandomValue();
+    // options.barColor = COLOR_RED;
+    // $('#sidebar-sparkline-4').sparkline(value, options);
+// };
+
+// var PageWithTwoSidebar = function () {
+	// "use strict";
+    // return {
+        // //main function
+        // init: function () {
+            // handleRenderKnobDonutChart();
+            // handleRenderSparkline();
+        // }
+    // };
+// }();
+</script>
+		
 <?php include('footer_dashboard.php')?>
