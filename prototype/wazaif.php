@@ -74,7 +74,7 @@
 			<div class="col-md-8">
 			
                 <!-- begin col-6 -->
-<div class="col-md-12">
+<div class="col-md-6 pull-left">
 <!-- https://www.alamy.com/stock-photo/99-names-of-allah.html
 https://www.alamy.com/search/Imageresults.aspx?foo=bar&st=9&sortby=2&resultview=sortbyPopular&npgs=0&qt=99%20names%20of%20allah&qt_raw=99%20names%20of%20allah&lic=3&mr=0&pr=0&ot=0&creative=&ag=0&hc=0&pc=&blackwhite=&cutout=&tbar=1&et=0x000000000000000000000&vp=0&loc=0&imgt=0&dtfr=&dtto=&size=0xFF&archive=1&groupid=&pseudoid=543155&a=&cdid=&cdsrt=&name=&qn=&apalib=&apalic=&lightbox=&gname=&gtype=&xstx=0&saveQry=&editorial=1&nu=&t=&edoptin=&customgeoip=&cap=1&cbstore=1&vd=0&lb=&fi=2&edrf=&ispremium=1&flip=0&pl=&comp=1
 -->
@@ -83,19 +83,19 @@ https://www.alamy.com/search/Imageresults.aspx?foo=bar&st=9&sortby=2&resultview=
 					<div class="card-group">
 					
 						<!-- begin card -->
-						<div class="card">
+						<div  class="card">
 							<img class="card-img-top" src="../assets/img/allah_names/3.jpg" alt="Card image cap">
 							
 						</div>
 						<!-- end card -->
 						<!-- begin card -->
-						<div class="card">
+						<div hidden  class="card">
 							<img class="card-img-top" src="../assets/img/allah_names/1.jpg" alt="Card image cap">
 							
 						</div>
 						<!-- end card -->
 						<!-- begin card -->
-						<div class="card">
+						<div  hidden class="card">
 							<img class="card-img-top" src="../assets/img/allah_names/4.jpg" alt="Card image cap">
 							
 						</div>
@@ -105,7 +105,7 @@ https://www.alamy.com/search/Imageresults.aspx?foo=bar&st=9&sortby=2&resultview=
 				</div>
                 <!-- end col-6 -->
                  <!-- begin col-6 -->
-<div class="col-md-12">
+<div class="col-md-6 pull-left">
 <!-- https://www.alamy.com/stock-photo/99-names-of-allah.html
 https://www.alamy.com/search/Imageresults.aspx?foo=bar&st=9&sortby=2&resultview=sortbyPopular&npgs=0&qt=99%20names%20of%20allah&qt_raw=99%20names%20of%20allah&lic=3&mr=0&pr=0&ot=0&creative=&ag=0&hc=0&pc=&blackwhite=&cutout=&tbar=1&et=0x000000000000000000000&vp=0&loc=0&imgt=0&dtfr=&dtto=&size=0xFF&archive=1&groupid=&pseudoid=543155&a=&cdid=&cdsrt=&name=&qn=&apalib=&apalic=&lightbox=&gname=&gtype=&xstx=0&saveQry=&editorial=1&nu=&t=&edoptin=&customgeoip=&cap=1&cbstore=1&vd=0&lb=&fi=2&edrf=&ispremium=1&flip=0&pl=&comp=1
 -->
@@ -114,19 +114,19 @@ https://www.alamy.com/search/Imageresults.aspx?foo=bar&st=9&sortby=2&resultview=
 					<div class="card-group">
 						
 						<!-- begin card -->
-						<div class="card">
+						<div hidden class="card">
 							<img class="card-img-top" src="../assets/img/rasool_names/3.jpg" alt="Card image cap">
 							
 						</div>
 						<!-- end card -->
 						<!-- begin card -->
-						<div class="card">
+						<div  class="card">
 							<img class="card-img-top" src="../assets/img/rasool_names/1.jpg" alt="Card image cap">
 							
 						</div>
 						<!-- end card -->
 						<!-- begin card -->
-						<div class="card">
+						<div  hidden class="card">
 							<img class="card-img-top" src="../assets/img/rasool_names/4.jpg" alt="Card image cap">
 							
 						</div>

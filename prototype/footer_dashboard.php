@@ -111,19 +111,12 @@
 	<script src="../assets/js/jquery.counter.js"></script>
 	<script>
       $('.counter1').counter();
-     </script>
-	
-	<script>
+   
 		$(document).ready(function() {
-			App.init();
+			// App.init();
 			ChartNvd3.init();
-		});
-		
-	</script>
 	<!-- ================== END PAGE LEVEL JS ================== -->
 	
-	<script>
-		$(document).ready(function() {
 			App.init();
 			PageWithTwoSidebar.init();
 		});

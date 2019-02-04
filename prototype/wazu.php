@@ -149,8 +149,85 @@ div#nv-bar-chart svg {
                         <!-- end hljs-wrapper -->
                     </div>
                     <!-- end panel -->
+					
+					<!-- begin panel -->
+                    <div class="panel panel-inverse" data-sortable-id="form-validation-1">
+                        <!-- begin panel-heading -->
+                        <div class="panel-heading">
+                            <div class="panel-heading-btn">
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-redo"></i></a>
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                            </div>
+                            <h4 class="panel-title">Stop Watch</h4>
+                        </div>
+                        <!-- end panel-heading -->
+                        <!-- begin panel-body -->
+                        <div class="panel-body">
+                            <form class="form-horizontal" data-parsley-validate="true" name="demo-form">
+							
+														
+							<div class="container">
+								<!-- time to add the controls -->
+								<input id="start" name="controls" type="radio" />
+								<input id="stop" name="controls" type="radio" />
+								<input id="reset" name="controls" type="radio" />
+								<div class="timer bg-black-darker">
+									<div class="cell">
+										<div class="numbers tenhour moveten">0 1 2 3 4 5 6 7 8 9</div>
+									</div>
+									<div class="cell">
+										<div class="numbers hour moveten">0 1 2 3 4 5 6 7 8 9</div>
+									</div>
+									<div class="cell divider"><div class="numbers">:</div></div>
+									<div class="cell">
+										<div class="numbers tenminute movesix">0 1 2 3 4 5 6</div>
+									</div>
+									<div class="cell">
+										<div class="numbers minute moveten">0 1 2 3 4 5 6 7 8 9</div>
+									</div>
+									<div class="cell divider"><div class="numbers">:</div></div>
+									<div class="cell">
+										<div class="numbers tensecond movesix">0 1 2 3 4 5 6</div>
+									</div>
+									<div class="cell">
+										<div class="numbers second moveten">0 1 2 3 4 5 6 7 8 9</div>
+									</div>
+									<div class="cell divider"><div class="numbers">:</div></div>
+									<div class="cell">
+										<div class="numbers milisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
+									</div>
+									<div class="cell">
+										<div class="numbers tenmilisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
+									</div>
+									<div class="cell">
+										<div class="numbers hundredmilisecond moveten">0 1 2 3 4 5 6 7 8 9</div>
+									</div>
+								</div>
+								<!-- Lables for the controls -->
+								<div id="timer_controls">
+									<label for="start">Start</label>
+									<label for="stop">Pause</label>
+									<label for="reset">Reset</label>
+								</div>
+							</div>
+
+							
+                            </form>
+                        </div>
+                        <!-- end panel-body -->
+                        <!-- begin hljs-wrapper -->
+                      
+                        <!-- end hljs-wrapper -->
+                    </div>
+                    <!-- end panel -->
+					
                 </div>
                 <!-- end col-6 -->
+				
+				
+				
  <div class="col-lg-6">
 			    	<!-- begin #accordion -->
 			    	<div id="accordion" class="card-accordion">
@@ -196,7 +273,11 @@ div#nv-bar-chart svg {
 					</div>
 					<!-- end #accordion -->
 			    </div>
-            </div>
+            
+			
+			
+			
+			</div>
             <!-- end row -->
 			<!-- begin panel -->
 		

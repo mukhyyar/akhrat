@@ -131,6 +131,25 @@ div#nv-bar-chart svg {
 									</div>
 									
 								</div>
+								<div class="form-group row m-b-15">
+									<label class="col-form-label col-md-3">Kalima </label>
+									<div class="col-md-5">
+										<select class="form-control">
+											<option>Select</option>
+											<option>Yes</option>
+											<option>No</option>
+											
+										</select>
+										
+									</div>
+									<div class="col-md-4">
+										
+										<input type="number" class="form-control" placeholder="Kalima Qty">
+										
+										
+									</div>
+									
+								</div>
 								
 								<div class="form-group row m-b-15">
 									<label class="col-form-label col-md-3">Astagfar</label>

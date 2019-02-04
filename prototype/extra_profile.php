@@ -47,7 +47,7 @@
 					<!-- BEGIN profile-header-tab -->
 					<ul class="profile-header-tab nav nav-tabs">
 						<li class="nav-item"><a href="#profile-dashboard" class="nav-link active" data-toggle="tab">Dashboard</a></li>
-						<li class="nav-item"><a href="#profile-post" class="nav-link" data-toggle="tab">Timeline</a></li>
+						<li hidden class="nav-item"><a href="#profile-post" class="nav-link" data-toggle="tab">Timeline</a></li>
 						<li class="nav-item"><a href="#profile-about" class="nav-link" data-toggle="tab">ABOUT</a></li>
 						
 					</ul>
@@ -64,7 +64,7 @@
 					<!-- begin row -->
 						<div  class="row">
 							<!-- begin col-3 -->
-							<div class="col-lg-3 col-md-6">
+							<div  hidden class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-orange">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-calendar-alt"></i></div>
 									<div class="stats-content">
@@ -79,7 +79,7 @@
 							</div>
 							<!-- end col-3 -->
 							<!-- begin col-3 -->
-							<div class="col-lg-3 col-md-6">
+							<div hidden class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-blue">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-check-square fa-fw"></i></div>
 									<div class="stats-content">
@@ -95,7 +95,7 @@
 							<!-- end col-3 -->
 							
 								<!-- begin col-3 -->
-							<div class="col-lg-3 col-md-6">
+							<div hidden class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-green">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-calendar-alt"></i></div>
 									<div class="stats-content">
@@ -110,7 +110,7 @@
 							</div>
 							<!-- end col-3 -->
 								<!-- begin col-3 -->
-							<div class="col-lg-3 col-md-6">
+							<div hidden class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-red">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-calendar-alt"></i></div>
 									<div class="stats-content">
@@ -293,6 +293,56 @@
 				<!-- end col-4 -->
 							
 							
+								<!-- begin col-4 -->
+				<div class="col-lg-6">
+					<!-- begin panel -->
+					<div class="panel panel-inverse" data-sortable-id="index-3">
+						<div class="panel-heading">
+							<div class="panel-heading-btn">
+								<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" data-click="panel-expand"><i class="fa fa-expand"></i></a>
+								<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-success" data-click="panel-reload"><i class="fa fa-redo"></i></a>
+								<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
+								<a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
+							</div>
+							<h4 class="panel-title">Umrah's Ticket Winners</h4>
+						</div>
+						<div class="panel-body p-t-0">
+						  <!-- begin panel-body -->
+                        <div class="panel-body">
+                            <table id="data-table-fixed-columns" class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                    	
+                                    	<th width="1%" data-orderable="false"></th>
+                                        <th class="text-nowrap">Winner Name</th>
+                                        <th class="text-nowrap">Country, City</th>
+                                        <th class="text-nowrap">Winner of the Month</th>
+                                      
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                    <tr class="gradeU">
+                                    
+                                    	<td width="1%" class="with-img"><img src="../assets/img/user/user-1.jpg" class="img-rounded height-30" /></td>
+                                        <td>Umair Khan</td>
+                                        <td>Pakistan, Karachi</td>
+                                        <td>June</td>
+                                       
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- end panel-body -->
+						</div>
+					</div>
+					<!-- end panel -->
+					
+			
+				</div>
+				<!-- end col-4 -->
+							
+							
 						</div>
 						<!-- end row -->
 			
@@ -300,7 +350,7 @@
             		<!-- begin #profile-post tab -->
             		<div class="tab-pane fade show " id="profile-post">
 						<!-- begin timeline -->
-						<ul class="timeline">
+						<ul hidden class="timeline">
 							<li>
 								<!-- begin timeline-time -->
 								<div class="timeline-time">
