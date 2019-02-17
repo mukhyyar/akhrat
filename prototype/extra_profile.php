@@ -64,7 +64,7 @@
 					<!-- begin row -->
 						<div  class="row">
 							<!-- begin col-3 -->
-							<div  hidden class="col-lg-3 col-md-6">
+							<div   class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-orange">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-calendar-alt"></i></div>
 									<div class="stats-content">
@@ -79,7 +79,7 @@
 							</div>
 							<!-- end col-3 -->
 							<!-- begin col-3 -->
-							<div hidden class="col-lg-3 col-md-6">
+							<div  class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-blue">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-check-square fa-fw"></i></div>
 									<div class="stats-content">
@@ -95,7 +95,7 @@
 							<!-- end col-3 -->
 							
 								<!-- begin col-3 -->
-							<div hidden class="col-lg-3 col-md-6">
+							<div  class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-green">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-calendar-alt"></i></div>
 									<div class="stats-content">
@@ -110,7 +110,7 @@
 							</div>
 							<!-- end col-3 -->
 								<!-- begin col-3 -->
-							<div hidden class="col-lg-3 col-md-6">
+							<div  class="col-lg-3 col-md-6">
 								<div class="widget widget-stats bg-gradient-red">
 									<div class="stats-icon stats-icon-lg"><i class="fa fa-calendar-alt"></i></div>
 									<div class="stats-content">

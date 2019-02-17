@@ -63,8 +63,8 @@
 						    <span>Ramazan</span>
 						</a>
 						<ul class="sub-menu">
-							<li><a href="javascript:;">Roza</a></li>
-							<li><a href="javascript:;">Taraveh</a></li>
+							<li><a href="roza.php">Roza</a></li>
+							<li><a href="taraveh.php">Taraveh</a></li>
 							
 							
 						</ul>
@@ -73,17 +73,17 @@
 						<a href="javascript:;">
 					        <b class="caret"></b>
 							<i class="fa fa-gem"></i>
-						    <span>Donations</span>
+						    <span>Zakat/Sadqa/Khairat</span>
 						</a>
 						<ul class="sub-menu">
 							<li><a href="zakat.php">Zakat</a></li>
-							<li><a href="javascript:;">Sadqa</a></li>
-							<li><a href="javascript:;">Khairat</a></li>
+							<li><a href="sadqa.php">Sadqa</a></li>
+							<li><a href="khairat.php">Khairat</a></li>
 							
 							
 						</ul>
 					</li>
-					<li class="has-sub">
+					<li hidden class="has-sub">
 						<a href="javascript:;">
 					        <b class="caret"></b>
 						    <i class="fa fa-cogs"></i>
@@ -95,7 +95,7 @@
 							
 						</ul>
 					</li>
-					<li class="has-sub">
+					<li hidden class="has-sub">
 						<a href="javascript:;">
 					        <b class="caret"></b>
 						    <i class="fa fa-cogs"></i>

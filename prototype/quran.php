@@ -679,6 +679,73 @@
 					</div>
 					<!-- end #accordion -->
 			    </div>
+				
+				 <!-- begin col-6 -->
+			    <div class="col-lg-12">
+			    	<!-- begin nav-tabs -->
+					<ul class="nav nav-tabs">
+						<li class="nav-items">
+							<a href="#default-tab-1" data-toggle="tab" class="nav-link active">
+								<span class="d-sm-none">Irfan-ul-Quran</span>
+								<span class="d-sm-block d-none">Irfan-ul-Quran</span>
+							</a>
+						</li>
+						<li class="nav-items">
+							<a href="#default-tab-2" data-toggle="tab" class="nav-link">
+								<span class="d-sm-none">Tab 2</span>
+								<span class="d-sm-block d-none">Quran.com</span>
+							</a>
+						</li>
+						<li hidden class="">
+							<a href="#default-tab-3" data-toggle="tab" class="nav-link">
+								<span class="d-sm-none">Tab 3</span>
+								<span class="d-sm-block d-none">Default Tab 3</span>
+							</a>
+						</li>
+					</ul>
+					<!-- end nav-tabs -->
+					<!-- begin tab-content -->
+					<div class="tab-content">
+						<!-- begin tab-pane -->
+						<div class="tab-pane fade active show" id="default-tab-1">
+							<iframe src="https://www.irfan-ul-quran.com/english/index.html" style="width: 100%;    height: 800px;"></iframe>
+						</div>
+						<!-- end tab-pane -->
+						<!-- begin tab-pane -->
+						<div class="tab-pane fade" id="default-tab-2">
+							<iframe src="https://quran.com/1" style="width: 100%;    height: 800px;"></iframe>
+						</div>
+						<!-- end tab-pane -->
+						<!-- begin tab-pane -->
+						<div hidden class="tab-pane fade" id="default-tab-3">
+							<p>
+								<span class="fa-stack fa-4x pull-left m-r-10">
+									<i class="fa fa-square-o fa-stack-2x"></i>
+									<i class="fab fa-twitter fa-stack-1x"></i>
+								</span>
+								Praesent tincidunt nulla ut elit vestibulum viverra. Sed placerat magna eget eros accumsan elementum. 
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis lobortis neque. 
+								Maecenas justo odio, bibendum fringilla quam nec, commodo rutrum quam. 
+								Donec cursus erat in lacus congue sodales. Nunc bibendum id augue sit amet placerat. 
+								Quisque et quam id felis tempus volutpat at at diam. Vivamus ac diam turpis.Sed at lacinia augue. 
+								Nulla facilisi. Fusce at erat suscipit, dapibus elit quis, luctus nulla. 
+								Quisque adipiscing dui nec orci fermentum blandit.
+								Sed at lacinia augue. Nulla facilisi. Fusce at erat suscipit, dapibus elit quis, luctus nulla. 
+								Quisque adipiscing dui nec orci fermentum blandit.
+							</p>
+						</div>
+						<!-- end tab-pane -->
+					</div>
+					<!-- end tab-content -->
+					
+					
+				</div>
+			    <!-- end col-6 -->
+				
+				
+				 
+				
+				
             </div>
             <!-- end row -->
 			<!-- begin panel -->

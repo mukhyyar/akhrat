@@ -67,7 +67,7 @@
 			<!-- end breadcrumb -->
 			<!-- begin page-header -->
 			<!--https://www.minhaj.org/english/tid/14166/Zakat-Calculator-Minhaj-Welfare-Foundation.html-->
-			<h1 class="page-header">Zakat Calculator <small> Precious Lives awaiting your Zakat </small></h1>
+			<h1 class="page-header">Sadqa Payment <small> Precious Lives awaiting your Sadqa </small></h1>
 			
 			<!-- end page-header -->
 			<!-- begin row -->
@@ -84,96 +84,25 @@
                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-warning" data-click="panel-collapse"><i class="fa fa-minus"></i></a>
                                 <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-danger" data-click="panel-remove"><i class="fa fa-times"></i></a>
                             </div>
-                            <h4 class="panel-title">Zakat Calculator</h4>
+                            <h4 class="panel-title">Sadqa</h4>
                         </div>
                         <!-- end panel-heading -->
                         <!-- begin panel-body -->
                         <div class="panel-body">
                             <form class="form-horizontal" data-parsley-validate="true" name="demo-form">
-								
-								<div class="form-group row m-b-15">
-								
-								<div class="col-md-8">
-									<label class="col-form-label">Bank Saving</label>
-									  <div>  <small class="f-s-12 text-grey-darker">Use lowest amount held for 1 year</small></div>
-								</div>
-									<div class="col-md-4">
-										<input type="number" class="form-control"placeholder="Enter amount">
-										
-									</div>
-									
-								</div>
-								
-							<div class="form-group row m-b-15">
-								
-								<div class="col-md-8">
-									<label class="col-form-label">+ Gold & Silver</label>
-									  <div>  <small class="f-s-12 text-grey-darker">Monetary value</small></div>
-								</div>
-									<div class="col-md-4">
-										<input type="number" class="form-control"placeholder="Enter amount">
-										
-									</div>
-									
-								</div>
-								
-								
-							
-							<div class="form-group row m-b-15">
-									
-								<div class="col-md-8">
-									<label class="col-form-label">+ Money owed to you</label>
-									  <div>  <small class="f-s-12 text-grey-darker">Deposits, loans you made</small></div>
-								</div>
-									<div class="col-md-4">
-										<input type="number" class="form-control"placeholder="Enter amount">
-										
-									</div>
-									
-								</div>
-								
-							
-							<div class="form-group row m-b-15">
-									
-								<div class="col-md-8">
-									<label class="col-form-label">+ Resale value of shares, stocks, bonds, etc.</label>
-									  <div>  <small class="f-s-12 text-grey-darker"></small></div>
-								</div>
-									<div class="col-md-4">
-										<input type="number" class="form-control"placeholder="Enter amount">
-										
-									</div>
-									
-								</div>
-								
-							
+					
+					
 								
 							<div class="form-group row m-b-15">
 									
 								<div class="col-md-8">
-									<label class="col-form-label">Total</label>
-									  <div>  <small class="f-s-12 text-grey-darker"></small></div>
-								</div>
-									<div class="col-md-4">
-										<input disabled type="number" class="form-control"placeholder="Enter amount">
-										
-									</div>
-									
-								</div>
-								
-							
-								
-								
-							<div class="form-group row m-b-15">
-									
-								<div class="col-md-8">
-									<label class="col-form-label">2.5 % of zakat</label>
+									<label class="col-form-label">Sadqa</label>
 									  <div>  <small class="f-s-12 text-grey-darker"></small></div>
 								</div>
 									<div class="col-md-4">
 										<div class="input-group m-b-10">
-								<div class="input-group-prepend"><span class="input-group-text">PKR</span></div>
-								<input type="text" class="form-control" disabled>
+								<div class="input-group-prepend"><span class="input-group-text">$</span></div>
+								<input type="number" class="form-control" >
 							</div>
 										
 									</div>
